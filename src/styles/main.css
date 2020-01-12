@@ -54,7 +54,7 @@ html {
 }
 
 #welcome {
-  /* padding-top: 65px; */
+text-align: justify;
 }
 
 #subtitle {
@@ -64,11 +64,28 @@ html {
 
 .links {
     padding-right: 10px;
-   
 }
+
+#github {
+justify-content: space-evenly;}
 
 .headers {
   font-family: "Montserrat", sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.proplan {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#pro-plan-img {
+    padding-right: 20px;
 }
 
 .w3-wide {
